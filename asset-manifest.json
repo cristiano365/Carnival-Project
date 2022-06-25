@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Carnival-Project/static/css/main.d6a92184.css",
+    "main.js": "/Carnival-Project/static/js/main.9714c766.js",
+    "static/js/787.21a7c19a.chunk.js": "/Carnival-Project/static/js/787.21a7c19a.chunk.js",
+    "static/media/totale.png": "/Carnival-Project/static/media/totale.563277f1f58461ca02b1.png",
+    "static/media/Carnevalee Freakshow.ttf": "/Carnival-Project/static/media/Carnevalee Freakshow.70bd43dfbafecebd31be.ttf",
+    "static/media/logonero.png": "/Carnival-Project/static/media/logonero.42f3b4f6f6c3206ab430.png",
+    "index.html": "/Carnival-Project/index.html",
+    "main.d6a92184.css.map": "/Carnival-Project/static/css/main.d6a92184.css.map",
+    "main.9714c766.js.map": "/Carnival-Project/static/js/main.9714c766.js.map",
+    "787.21a7c19a.chunk.js.map": "/Carnival-Project/static/js/787.21a7c19a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6a92184.css",
+    "static/js/main.9714c766.js"
+  ]
+}
