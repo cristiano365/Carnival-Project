@@ -1,45 +1,49 @@
 import './App.css';
 
 import React, {Component} from 'react';
-import { ChakraProvider } from '@chakra-ui/react';
-import { Heading, Box, Flex } from '@chakra-ui/react';
-import { Icon } from '@chakra-ui/react'
-import { FaTwitter } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
-import { FaDiscord } from 'react-icons/fa';
-import { FaYoutube } from 'react-icons/fa';
+import { Center, ChakraProvider, Spacer, Stack } from '@chakra-ui/react';
 
-import Sfondo from "./img/totale.png";
 import Logo from "./img/logonero.png";
+import Background from "./img/1sfondo.png";
+import Titolo from "./img/titolo + sottotitolo.png";
+import mint2 from "./img/2mint.png";
+
+
+import mask1 from "./img/mask1.png";
+import mask2 from "./img/mask2.png";
+
+
 
 import Navbar from "./components/navbar";
+import Cardbuttonsx from './components/cardbuttonsx';
+import Cardbuttondx from './components/cardbuttondx';
+import Cardimg from './components/cardimg';
 
 export default class App extends Component {
   render() {
     return (
       <>
-        <ChakraProvider>
-          <img src={Sfondo} class="img-fluid" style={{position: "absolute"}}/>
-            <Navbar img={Logo}/>
-            <button type="button" class="btn btn-success" style={{position: "absolute", marginLeft: "17%", marginTop: "21%"}}><Heading style={{fontFamily:"Carnivalee", fontSize:"30px"}} color='#f3edcd'>WALLET</Heading></button>
-            <button type="button" class="btn btn-danger" style={{position: "absolute", marginLeft: "84%", marginTop: "78%"}}><Heading style={{fontFamily:"Carnivalee", fontSize:"30px"}} color='#f3edcd'>MINT</Heading></button>
-            <button type="button" class="btn" style={{position: "absolute", marginLeft: "17%", marginTop: "140%", backgroundColor: "#f27979"}}><Heading style={{fontFamily:"Carnivalee", fontSize:"30px"}} color='#f3edcd'>THE SANDBOX</Heading></button>
-            <button type="button" class="btn btn-primary" style={{position: "absolute", marginLeft: "84%", marginTop: "202%"}}><Heading style={{fontFamily:"Carnivalee", fontSize:"30px"}} color='#f3edcd'>ROADMAP</Heading></button>
-            <Flex style={{position: "absolute", marginLeft: "17%", marginTop: "265%", color: "#eaa148"}}>
-              <Box w='100%' p={4}>
-                <Icon as={FaInstagram}  w={10} h={10} />
-              </Box>
-              <Box w='100%' p={4}>
-                <Icon as={FaYoutube}  w={10} h={10} />
-              </Box>
-              <Box w='100%' p={4}>
-                <Icon as={FaTwitter}  w={10} h={10} />
-              </Box>
-              <Box w='100%' p={4}>
-                <Icon as={FaDiscord}  w={10} h={10} />
-              </Box>
-            </Flex>
-        </ChakraProvider>
+          <ChakraProvider>
+            <div className='container-fluid' style={{backgroundImage: "url(" + Background + ")", backgroundRepeat: "no-repeat", backgroundSize: "3050px", margin: "0"}}>                
+                <Navbar img={Logo}/>
+                <Center>
+                  <Stack direction={['column', 'row']} spacing='90px' height='680px' marginTop={16}>
+                    <Cardbuttonsx 
+                    img={Titolo} />
+                    <Cardimg img={mask1} />
+                  </Stack>
+                </Center>
+                <Center>
+                  <Stack direction={['column', 'row']} spacing='90px' p={16}>
+                    <Cardimg img={mask2} />
+                    <Cardbuttondx 
+                    img={mint2}
+                    title="MINT"
+                    colorbutton="btn btn-danger"/>
+                  </Stack>
+                </Center>
+            </div>       
+          </ChakraProvider>
       </>
     );
   }

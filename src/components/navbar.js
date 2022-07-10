@@ -17,20 +17,20 @@ export default class navbar extends Component {
                     <Navbar.Brand >
                         <Image src={this.props.img} boxSize='150px' />
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end" color="#f3edcd">
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" color="white"/>
+                    <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                         <Nav className="justify-content-center">
-                            <Nav.Link href="#mission" >
-                                <Heading style={{fontFamily:"Carnivalee", fontSize:"30px"}} color='#f3edcd' >HOME</Heading>
+                            <Nav.Link href="#MINT" >
+                                <Heading style={{fontFamily:"Carnivalee", fontSize:"30px"}} color='#f3edcd' >MINT</Heading>
                             </Nav.Link>
-                            <Nav.Link href="#solutions">
-                                <Heading style={{fontFamily:"Carnivalee", fontSize:"30px"}} color='#f3edcd'>MINT</Heading>
+                            <Nav.Link href="#WHITEPAPER">
+                                <Heading style={{fontFamily:"Carnivalee", fontSize:"30px"}} color='#f3edcd'>WHITEPAPER</Heading>
                             </Nav.Link>
-                            <Nav.Link href="#cocktail nft">
+                            <Nav.Link href="#THE SANDBOX">
                                 <Heading style={{fontFamily:"Carnivalee", fontSize:"30px"}} color='#f3edcd'>THE SANDBOX</Heading>
                             </Nav.Link>
-                            <Nav.Link href="#artists">
-                                <Heading style={{fontFamily:"Carnivalee", fontSize:"30px"}} color='#f3edcd'>ROAD MAP</Heading>
+                            <Nav.Link href="#LORE">
+                                <Heading style={{fontFamily:"Carnivalee", fontSize:"30px"}} color='#f3edcd'>LORE</Heading>
                             </Nav.Link>
                         </Nav>
                         <Nav className="justify-content-end">
