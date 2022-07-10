@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/Carnival-Project/static/css/main.d6a92184.css",
-    "main.js": "/Carnival-Project/static/js/main.9714c766.js",
+    "main.js": "/Carnival-Project/static/js/main.f4c9ef80.js",
     "static/js/787.21a7c19a.chunk.js": "/Carnival-Project/static/js/787.21a7c19a.chunk.js",
-    "static/media/totale.png": "/Carnival-Project/static/media/totale.563277f1f58461ca02b1.png",
+    "static/media/1sfondo.png": "/Carnival-Project/static/media/1sfondo.c13a3c637394521af22c.png",
+    "static/media/mask1.png": "/Carnival-Project/static/media/mask1.be6e609665d0974d359e.png",
+    "static/media/mask2.png": "/Carnival-Project/static/media/mask2.23b30bd0408d13008677.png",
     "static/media/Carnevalee Freakshow.ttf": "/Carnival-Project/static/media/Carnevalee Freakshow.70bd43dfbafecebd31be.ttf",
+    "static/media/titolo + sottotitolo.png": "/Carnival-Project/static/media/titolo + sottotitolo.74aee3b31bce9c7ee6d0.png",
+    "static/media/2mint.png": "/Carnival-Project/static/media/2mint.d37ff6e58350596a5545.png",
     "static/media/logonero.png": "/Carnival-Project/static/media/logonero.42f3b4f6f6c3206ab430.png",
     "index.html": "/Carnival-Project/index.html",
     "main.d6a92184.css.map": "/Carnival-Project/static/css/main.d6a92184.css.map",
-    "main.9714c766.js.map": "/Carnival-Project/static/js/main.9714c766.js.map",
+    "main.f4c9ef80.js.map": "/Carnival-Project/static/js/main.f4c9ef80.js.map",
     "787.21a7c19a.chunk.js.map": "/Carnival-Project/static/js/787.21a7c19a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6a92184.css",
-    "static/js/main.9714c766.js"
+    "static/js/main.f4c9ef80.js"
   ]
 }
